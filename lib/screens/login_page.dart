@@ -23,7 +23,6 @@ class _LoginPageState extends State<LoginPage> {
     });
 
     const String apiUrl = 'http://10.0.2.2:8000/api/accounts/login/';
-
     final response = await http.post(
       Uri.parse(apiUrl),
       headers: {'Content-Type': 'application/json'},
