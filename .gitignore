@@ -18,6 +18,14 @@ migrate_working_dir/
 *.iws
 .idea/
 
+# Flutter build files
+build/
+android/.gradle/
+android/app/build/
+*.iml
+.idea/
+
+
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
